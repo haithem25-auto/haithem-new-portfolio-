@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import haithemImg from "./assets/Gemini_Generated_Image_sbzjcrsbzjcrsbzj.png";
+import haithemImg from "./assets/assets/photo_2026-09-25_16-35-56.jpg";
 
 const styleSheet = `
   html {
@@ -62,9 +62,9 @@ const translations = {
       contact: "تواصل معي",
     },
     about: {
-  title: "About Me",
-  desc: "أنا هيثم عبد الوكيل، أعمل على بناء أنظمة ذكية وحلول أتمتة مدعومة بالذكاء الاصطناعي. أدمج البرمجة، تحليل البيانات، والأتمتة لتحويل الأفكار والمشكلات الواقعية إلى منتجات رقمية عملية، حديثة، وقابلة للتوسع.",
-},
+      title: "About Me",
+      desc: "أنا هيثم عبد الوكيل، أعمل على بناء أنظمة ذكية وحلول أتمتة مدعومة بالذكاء الاصطناعي. أدمج البرمجة، تحليل البيانات، والأتمتة لتحويل الأفكار والمشكلات الواقعية إلى منتجات رقمية عملية، حديثة، وقابلة للتوسع.",
+    },
     projects: {
       badge: "PORTFOLIO SHOWCASE",
       title: "المشاريع و حلول الأتمتة",
@@ -141,10 +141,10 @@ const translations = {
       explore: "Explore Work",
       contact: "Contact Me",
     },
-   about: {
-  title: "About Me",
-  desc: "I’m Haithem Abdelwakil, a developer focused on AI, automation, and intelligent digital systems. I turn ideas and real-world challenges into practical, scalable solutions by combining software development, AI automation, and data-driven thinking.",
-},
+    about: {
+      title: "About Me",
+      desc: "I’m Haithem Abdelwakil, a developer focused on AI, automation, and intelligent digital systems. I turn ideas and real-world challenges into practical, scalable solutions by combining software development, AI automation, and data-driven thinking.",
+    },
     projects: {
       badge: "PORTFOLIO SHOWCASE",
       title: "Projects & Automation Solutions",
@@ -736,7 +736,7 @@ function App() {
                     key={sIdx}
                     style={{
                       background: "rgba(255, 255, 255, 0.04)",
-                      color: "#e2e8f0",
+                      color: "#cbd5e1",
                       padding: "10px 14px",
                       borderRadius: "12px",
                       fontSize: "0.92rem",
