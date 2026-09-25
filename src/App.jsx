@@ -300,7 +300,7 @@ function App() {
     >
       <style>{styleSheet}</style>
 
-      {/* Navbar المصحح */}
+      {/* Navbar */}
       <nav
         style={{
           position: "fixed",
